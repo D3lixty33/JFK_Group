@@ -1,0 +1,159 @@
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+i {
+    height: 1cap;
+    font-weight: 400;
+    display: block;
+    cursor: pointer;
+    font-family: "Font Awesome 5 Free";
+    font-size: 16px;
+    color: rgb(26, 69, 104);
+    line-height: 16px;
+}
+
+.informativa h1 {
+    color: rgb(26, 69, 104);
+}
+
+hr {
+    margin-left: 50px;
+    margin-right: 50px;
+    color: black;
+}
+
+.testoInformativa {
+    margin-left: 50px;
+    align-items: center;
+}
+
+.informativa h1 {
+    margin-left: 50px;
+    margin-bottom: 30px
+}
+
+text {
+    font-family: 'Rubik', sans-serif;
+    font-size: 25px;
+    margin-left: 8px;
+}
+
+text:hover {
+    color: rgb(98, 178, 228);
+    cursor: pointer;
+}
+
+.testoInformativa>hr {
+    transition: width 1s ease-out;
+    width: 100%;
+    float: left;
+}
+
+.testoInformativa:hover>hr {
+    width: 0%;
+    float: right;
+}
+
+@keyframes informativaSlide {
+    from {
+        transform: translateX(200%)
+    }
+
+    to {
+        transform: translateX(0%)
+    }
+}
+
+.animationText {
+    animation: informativaSlide ease-out 1.75s;
+}
+
+@keyframes h1Animate {
+    from {
+        transform: translateX(200%)
+    }
+
+    to {
+        transform: translateX(0%)
+    }
+}
+
+.informativa h1 {
+    animation: h1Animate ease-out 1.5s;
+}
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: white !important;
+    text-align: end;
+    margin-top: 0;
+    margin-bottom: 35px;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.navbar img {
+    object-fit: contain;
+    width: 200px;
+    height: 100px;
+}
+
+nav #navbarNav {
+    align-items: flex-end;
+    justify-content: end;
+}
+
+#navbarNav {
+    align-items: center;
+}
+
+#navbarNav ul li a {
+    padding: 15px;
+    color: rgb(26, 69, 104) !important;
+}
+
+.btnNav {
+    background-color: rgb(26, 69, 104);
+    border-radius: 21px;
+    padding: 4px;
+    width: 150px;
+    color: white;
+}
+
+#btnNavSet {
+    padding-top: 10px !important;
+}
+
+.btnNav:hover {
+    
+    background-color: white;
+    color: rgb(26, 69, 104);
+    transition: 0.75 ease-in-out;
+}
+
+@keyframes btnAnimate {
+    from {
+        background-color: rgb(26, 69, 104);
+        color: white
+    }
+
+    to {
+        background-color: white;
+        color: rgb(26, 69, 104)
+    }
+}
+
+hr {
+    transition: width 1s ease-out;
+    margin-right: 30px;
+}
+
+hr:hover {
+    width: 0%;
+}
+
+#navSet:hover {
+    color: rgb(98, 178, 228);
+}
