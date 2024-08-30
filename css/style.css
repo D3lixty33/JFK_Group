@@ -692,7 +692,7 @@ input[type=radio] {
   background-attachment: scroll;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../assets/images/home/bg_contatti.jpg");
+  background-image: url("../assets/images/Immagino_sito_JFK_Group/DSC01993.jpg");
   background-position-x: 50%;
   background-position-y: 50%;
   background-repeat: no-repeat;
@@ -701,7 +701,7 @@ input[type=radio] {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 300;
-  height: 300px;
+  height: 500px;
   margin-left: 0;
   margin-right: 0;
   max-width: 100%;
@@ -786,13 +786,13 @@ input[type=radio] {
 
 .desktop-logo {
   z-index: 100;
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   /*display: flex;
   align-items: center;
   justify-content: center;*/
-  top: 35%;
-  left: 35%;
+  top: 20%;
+  left: 30%;
   right: 50%;
   position: absolute;
   animation: fadeInLogo linear 1.5s;
@@ -805,8 +805,8 @@ input[type=radio] {
 
 .desktop-logo img {
   object-fit: contain;
-  max-width: 400px;
-  max-height: 200px;
+  max-width: 600px;
+  max-height: 400px;
 }
 
 @keyframes fadeInLogo {
@@ -836,7 +836,7 @@ input[type=radio] {
 
 .underform {
   display: flex;
-  background-color: rgb(105, 94, 92);
+  background-color: #003053;
   color: white;
   align-items: center;
   justify-content: center;
@@ -1041,7 +1041,7 @@ input[type=radio] {
 }
 
 .privSection {
-  background-color: rgb(105, 94, 92);
+  background-color: #003053;
   color: white;
 }
 
@@ -1137,7 +1137,7 @@ input[type=radio] {
 }
 
 .privSpecs a:hover {
-  color: rgb(26, 69, 104);
+  color: rgb(98, 178, 228);
   text-decoration: none;
 }
 
