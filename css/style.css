@@ -335,6 +335,7 @@ img {
   justify-content: center;
   flex-direction: column;
   backface-visibility: visible !important;
+  cursor: pointer;
 
 }
 
@@ -850,7 +851,7 @@ input[type=radio] {
   justify-content: center;
   font-weight: 300;
   width: 100%;
-  margin-top: 100px
+  margin-top: 300px
 }
 
 .imgTransparent {
