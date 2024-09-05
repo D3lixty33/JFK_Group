@@ -692,7 +692,7 @@ input[type=radio] {
 }
 
 .form {
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-clip: border-box;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("../assets/images/Immagino_sito_JFK_Group/DSC01993.jpg");
@@ -713,7 +713,7 @@ input[type=radio] {
   position: relative;
   text-size-adjust: 100%;
   unicode-bidi: isolate;
-  margin-top: 150px;
+  margin-top: 80px;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -850,6 +850,7 @@ input[type=radio] {
   justify-content: center;
   font-weight: 300;
   width: 100%;
+  margin-top: 100px
 }
 
 .imgTransparent {
@@ -1065,6 +1066,10 @@ input[type=radio] {
     flex-direction: column;
   }
 
+  .secondDiv {
+    justify-content: center;
+  }
+
   .animateCard {
     width: 100%;
   }
@@ -1073,8 +1078,9 @@ input[type=radio] {
     flex-direction: column;
   }
 
-  .alinContainer {
+  .alignContainer {
     justify-content: center;
+    text-align: center;
   }
 
   .parallaxImg {
@@ -1123,10 +1129,20 @@ input[type=radio] {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 80px
   }
 
   .menu__item {
     font-size: 20px;
+  }
+
+  .payoffFooter {
+    height: 200px;
+    margin-top: -100px
+  }
+
+  .imgTransparent {
+    margin-top:-100px;
   }
 }
 
